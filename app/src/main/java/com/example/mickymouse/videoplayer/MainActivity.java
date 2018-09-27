@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         IV.setMediaController(VI);
         mp3 = MediaPlayer.create(this, R.raw.movite);
 
+
         Audio=(AudioManager) getSystemService(Context.AUDIO_SERVICE);
         int Mavolume= Audio.getStreamMaxVolume(AudioManager.STREAM_MUSIC);
         int CurVolume=Audio.getStreamVolume(AudioManager.STREAM_MUSIC);
